@@ -16,7 +16,6 @@
             /*GRID CONTAINER FICHA*/
             display: grid;
             grid-template-columns: 1fr 3fr;
-            grid-template-rows: 125vh 24vh 20vh;
             grid-template-areas: 'aside main'
                                 'aside main'
                                 'footer footer';
@@ -37,7 +36,6 @@
             /*GRID CONTAINER MAIN*/
             display: grid;
             grid-template-columns: 1fr 1fr;
-            grid-template-rows: 14vh 64vh 30vh 30vh;
             grid-template-areas: "atributos atributos"
                                 "recursos recursos"
                                 "armas armas"
@@ -136,7 +134,7 @@
         }
         .def-total+svg{
             position: absolute;
-            top: 30px;
+            top: 40px;
             width: 70px;
             left: 6px;
         }
@@ -198,6 +196,7 @@
         }
         .armas table td{
             border-bottom: 2px solid black;
+            padding: 2px;
             text-align: center;
         }
         .habilidades{
@@ -544,7 +543,9 @@
                   <tbody>
                     <tr>
                         <td>Espada Longa</td>
-                        <td>1</td>
+                        <td>
+                            <p>1</p>
+                        </td>
                         <td>1d8</td>
                         <td>0</td>
                         <td>19-20</td>
