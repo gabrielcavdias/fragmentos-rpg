@@ -1,0 +1,73 @@
+main{
+    border: 1px solid #000;
+    margin: 4rem 1rem;
+    padding: 1rem;
+    .personagens{
+        display: flex;
+        list-style: none;
+        justify-content: space-between;
+        li{
+            padding: 0.5rem;
+            img{
+                width: 8rem;
+                display: block;
+                margin: 0 auto;
+                padding: 10px;
+            }
+        }
+        .ativo{
+            background-color: rgb(199, 199, 199);
+            border-radius: 10px 10px 0 0 ;
+        }
+    }
+    h3{
+        text-align: center;
+        abbr{
+            text-decoration: none;
+            cursor: default;
+        }
+    }
+    .conteudo-personagem{
+        background-color: rgb(199, 199, 199);
+        padding: 10px;
+        border-radius: 10px;
+        h3{
+            font-size: 2.5rem;
+            margin: 1.5rem;
+        }
+        .atributos{
+            border: 1px solid red;
+            display: flex;
+            justify-content: space-between;
+            padding: 2rem;
+            margin: 2rem auto;
+            width: 80%;
+            .atributo{
+                padding: 5px;
+                //border: 1px solid purple;
+                background: #fff; /* fallback */
+            background:
+                linear-gradient(145deg, transparent 10px, #fff 0) top left,
+                linear-gradient(225deg, transparent 10px, #fff 0) top right,
+                linear-gradient(315deg, transparent 10px, #fff 0) bottom right,
+                linear-gradient(45deg,  transparent 10px, #fff 0) bottom left;
+            background-size: 50% 50%;
+            background-repeat: no-repeat;
+                width: 10%;
+                span{
+                    display: block;
+                    text-align: center;
+                }
+                .modificador{
+                    font-size: 3rem;
+                }
+                .valor{
+                    font-size: 0.8rem;
+                    border: 1px solid blue;
+                    border-radius: 10px;
+                }
+
+            }
+        }
+    }
+}

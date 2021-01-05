@@ -1,0 +1,35 @@
+*{
+    margin: 0;
+    overflow-x: hidden;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(233, 233, 233);
+    .logo{
+        width: 95px;
+    }
+    ul{
+        display:flex;
+    }
+    ul:first-of-type{
+        margin-right: 10rem;
+    }
+    nav{
+        align-self: center;
+    }
+    li{
+        list-style-type: none;
+        padding: 10px;
+    }
+    a:hover{
+        border-bottom: 3px solid rgb(255, 95, 95);
+        transition: 0.3s;
+    }
+    li a{ 
+        color: #1b1b1b;
+        text-decoration: none;
+        font-size: 1.5rem;
+    }
+    
+}

@@ -1,0 +1,146 @@
+main {
+  border: 1px solid #000;
+  margin: 4rem 1rem;
+  padding: 1rem;
+}
+
+main .personagens {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  list-style: none;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+main .personagens li {
+  padding: 0.5rem;
+}
+
+main .personagens li img {
+  width: 8rem;
+  display: block;
+  margin: 0 auto;
+  padding: 10px;
+}
+
+main .personagens .ativo {
+  background-color: #c7c7c7;
+  border-radius: 10px 10px 0 0;
+}
+
+main h3 {
+  text-align: center;
+}
+
+main h3 abbr {
+  text-decoration: none;
+  cursor: default;
+}
+
+main .conteudo-personagem {
+  background-color: #c7c7c7;
+  padding: 10px;
+  border-radius: 10px;
+}
+
+main .conteudo-personagem h3 {
+  font-size: 2.5rem;
+  margin: 1.5rem;
+}
+
+main .conteudo-personagem .atributos {
+  border: 1px solid red;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding: 2rem;
+  margin: 2rem auto;
+  width: 80%;
+}
+
+main .conteudo-personagem .atributos .atributo {
+  padding: 5px;
+  background: #fff;
+  /* fallback */
+  background: linear-gradient(145deg, transparent 10px, #fff 0) top left, linear-gradient(225deg, transparent 10px, #fff 0) top right, linear-gradient(315deg, transparent 10px, #fff 0) bottom right, linear-gradient(45deg, transparent 10px, #fff 0) bottom left;
+  background-size: 50% 50%;
+  background-repeat: no-repeat;
+  width: 10%;
+}
+
+main .conteudo-personagem .atributos .atributo span {
+  display: block;
+  text-align: center;
+}
+
+main .conteudo-personagem .atributos .atributo .modificador {
+  font-size: 3rem;
+}
+
+main .conteudo-personagem .atributos .atributo .valor {
+  font-size: 0.8rem;
+  border: 1px solid blue;
+  border-radius: 10px;
+}
+
+* {
+  margin: 0;
+  overflow-x: hidden;
+}
+
+header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  background-color: #e9e9e9;
+}
+
+header .logo {
+  width: 95px;
+}
+
+header ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+header ul:first-of-type {
+  margin-right: 10rem;
+}
+
+header nav {
+  -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
+      align-self: center;
+}
+
+header li {
+  list-style-type: none;
+  padding: 10px;
+}
+
+header a:hover {
+  border-bottom: 3px solid #ff5f5f;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+
+header li a {
+  color: #1b1b1b;
+  text-decoration: none;
+  font-size: 1.5rem;
+}
+
+:root {
+  font-family: Arial, Helvetica, sans-serif;
+}
+/*# sourceMappingURL=main.css.map */
